@@ -1,0 +1,159 @@
+/* Base Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+  }
+  
+  body {
+    background-color: #0d1117; /* Dark background */
+    color: #c9d1d9; /* Light text for readability */
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Form Container */
+  form {
+    background-color: #161b22; /* Slightly lighter dark for contrast */
+    border-radius: 8px;
+    border: 1px solid #30363d; /* Subtle border for definition */
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+  }
+  
+  /* Headings */
+  form h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #2ac3a8; /* Teal color for accent */
+    margin-bottom: 15px;
+  }
+  
+  form h2 {
+    font-size: 1.5rem;
+    color: #2ac3a8;
+    border-bottom: 2px solid #30363d; /* Teal underlines */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  /* Horizontal Rules */
+  form hr {
+    border: 1px solid #30363d;
+    margin: 20px 0;
+  }
+  
+  /* Labels and Inputs */
+  form p {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  form input,
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #30363d;
+    border-radius: 5px;
+    background-color: #0d1117; /* Dark background for inputs */
+    color: #c9d1d9; /* Light text */
+    font-size: 1rem;
+  }
+  
+  form input:focus,
+  form select:focus,
+  form textarea:focus {
+    border-color: #2ac3a8; /* Highlight in teal */
+    outline: none;
+    box-shadow: 0 0 5px rgba(42, 195, 168, 0.5); /* Subtle glow */
+  }
+  
+  /* Fieldsets */
+  fieldset {
+    border: 1px solid #30363d;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+  }
+  
+  legend {
+    font-size: 1rem;
+    color: #2ac3a8;
+    padding: 0 10px;
+  }
+  
+  /* Buttons */
+  form input[type="submit"],
+  form input[type="reset"],
+  button {
+    background-color: #2ac3a8;
+    color: #0d1117;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  form input[type="submit"]:hover,
+  form input[type="reset"]:hover,
+  button:hover {
+    background-color: #23857b; /* Darker teal for hover */
+  }
+  
+  form input[type="submit"]:active,
+  form input[type="reset"]:active,
+  button:active {
+    background-color: #1b6d64; /* Even darker teal for active */
+  }
+  
+  /* Textarea */
+  textarea {
+    resize: vertical;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    form {
+      padding: 15px;
+    }
+  
+    form h1 {
+      font-size: 1.5rem;
+    }
+  
+    form h2 {
+      font-size: 1.2rem;
+    }
+  }
+
+  input[type="submit"] {
+    width: 120px; /* Adjust width to shrink the button */
+    height: 40px; /* Adjust height to make it proportionate */
+    background-color: #00b894; /* Add a suitable background color */
+    color: #ffffff; /* Make the text white for better visibility */
+    font-size: 16px; /* Adjust font size */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Add slight rounding for aesthetics */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-left: 0; /* Align the button with the rest of the form */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #019875; /* Change color on hover for interactivity */
+  }
+  select option[value="select"] {
+    color: lightgrey;
+  }
+  select {
+    font-family: Arial, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }    
+  
